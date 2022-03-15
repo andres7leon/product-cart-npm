@@ -17,7 +17,6 @@ export const ProductButtons = ({ className, style }: Props) => {
       () => !!maxCount && counter === maxCount,
       [counter, maxCount],
     )
-    
 
     return (
         <div 
